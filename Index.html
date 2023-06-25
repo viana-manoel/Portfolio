@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="./Styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">home</a>
+            <a class="cabecalho__menu__link" href="about.html">sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
@@ -17,13 +22,17 @@
         e designers a colocarem em prática boas ideias. 
         Vamos conversar?</p> 
         <div class="apresentacao__links">
-            <h2>Acesse minhas redes:</h2>
-        <a class="apresentacao__links__link" href="https://instagram/viana.manoel">instagram</a>
-        <a class="apresentacao__links__link" href="https://github.com/viana-manoel">github</a>
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__links__link" href="https://github/viana-manoel">
+            <img src="./Assets/github.png">
+            Github   
+            </a>
         </div>
        </section>
-    <img src="Imagem 2.0.png" alt="imagem da joana santos">
+    <img src="./Assets/Imagem 2.0.png" alt="imagem da joana santos">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Alura.</p>
+    </footer>
 </body>
 </html>
